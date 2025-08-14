@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility flex-c-col {
+  @apply flex flex-col items-center;
+}
+
+@utility view-wrapper {
+  @apply flex-c-col w-full my-auto;
+}
+
+@utility input-style {
+  @apply bg-black/15 rounded-lg p-2 focus:outline-2 focus:-outline-offset-2 focus:outline-black/50;
+}
+
+@utility nav-link-style {
+  @apply bg-black/15 rounded-xl font-bold hover:bg-black/30 p-2;
+}
+
+@utility score-style {
+  @apply flex-center max-w-10 w-full aspect-square rounded-full bg-black/15;
+}
+
+body {
+  @apply bg-black/15;
+}
