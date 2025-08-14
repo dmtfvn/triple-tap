@@ -14,9 +14,21 @@ Player will be able to:
 
 Game rules:
 - score consists of **3** numbers between `1 and 100`
-  - if `all are different` picking the highest number will be the new high score, **e.g.** Score equals to `1, 56, 97` - 97 is the highest
-  - if `two are the same` it is a **Pair**. Picking that number will be the new high score, **e.g.** Score equals to `7, 16, 7` - 7 is the highest, beating **100**
-  - if `all are the same` it is a **Set**. Picking that number will be the new high score, **e.g.** Score equals to `1, 1, 1` - 1 is the highest, beating **Pair 100**
+  - if `all are different` picking the highest number will be the new high score
+  <br>
+  **Example:** Score equals to `1, 56, 97` - 97 is the highest
+
+  <br>
+
+  - if `two are the same` it is a **Pair**. Picking that number will be the new high score
+  <br>
+  **Example:** Score equals to `7, 16, 7` - 7 is the highest, beating **100**
+
+  <br>
+
+  - if `all are the same` it is a **Set**. Picking that number will be the new high score
+  <br>
+  **Example:** Score equals to `1, 1, 1` - 1 is the highest, beating **Pair 100**
 
 <br>
 
@@ -29,8 +41,6 @@ Game rules:
 
 **Server tech stack:**
 >*Express*
-
->*CORS*
 
 <br>
 
