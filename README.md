@@ -2,6 +2,8 @@
 
 >A simple game application.
 
+<br>
+
 Player will be able to:
 - view Game page to:
   - play, by clicking on the button below "Triple tap" title `3 times`
@@ -15,17 +17,17 @@ Player will be able to:
 Game rules:
 - score consists of **3** numbers between `1 and 100`
   - if `all are different` picking the highest number will be the new high score <br>
-  **Example:** Score equals to `1, 56, 97` - 97 is the highest
+  **Example:** Score of `1, 56, 97` makes 97 the highest
 
   <br>
 
   - if `two are the same` it is a **Pair**. Picking that number will be the new high score <br>
-  **Example:** Score equals to `7, 16, 7` - 7 is the highest, beating **100**
+  **Example:** Score of `7, 16, 7` makes 7 the highest, beating **100**
 
   <br>
 
   - if `all are the same` it is a **Set**. Picking that number will be the new high score <br>
-  **Example:** Score equals to `1, 1, 1` - 1 is the highest, beating **Pair 100**
+  **Example:** Score of `1, 1, 1` makes 1 the highest, beating **Pair 100**
 
 <br>
 
