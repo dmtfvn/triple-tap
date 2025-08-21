@@ -28,9 +28,15 @@ export default function ScoreView() {
 
   return (
     <section className="view-wrapper gap-2">
-      <h1 className="text-2xl font-semibold">
-        Leaderboard
-      </h1>
+      <div className="flex-c-col">
+        <p>
+          &#10022;
+        </p>
+
+        <h1 className="text-2xl font-semibold">
+          Leaderboard
+        </h1>
+      </div>
 
       <ul className="flex flex-col max-w-60 w-full rounded-3xl border border-black/25 divide-y divide-black/10 px-2">
         {score.length

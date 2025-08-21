@@ -3,11 +3,11 @@ export default function PlayerScore({
   score,
   power
 }) {
-  const points = power === 2 ? 'border-4 border-dashed border-green-600' : power === 3 ? 'border-4 border-amber-600' : 'border-none';
+  const border = power === 2 ? 'border-4 border-dashed border-violet-500' : power === 3 ? 'border-4 border-amber-600' : 'border-none';
 
   return (
     <li className="flex items-center py-2 gap-2">
-      <p className={`score-style ${points}`}>
+      <p className={`score-style ${border}`}>
         {score}
       </p>
 
